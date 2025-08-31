@@ -341,7 +341,7 @@ export default function SunnytechLanding() {
 
                 {/* Factura calefacción */}
                 <div className="grid gap-2">
-                  <label htmlFor="Factura_calefaccion" className="text-sm font-medium">Cuánto pagas de factura en invierno al mes</label>
+                  <label htmlFor="Factura_calefaccion" className="text-sm font-medium">Cuánto pagas de factura de calefación en invierno al mes</label>
                   <select id="Factura_calefaccion" name="Factura_calefaccion" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
                     <option value="">Selecciona...</option>
                     <option value="0-100">0-100 €</option>
@@ -355,8 +355,8 @@ export default function SunnytechLanding() {
 
                 {/* Objetivo */}
                 <div className="grid gap-2">
-                  <label htmlFor="porque" className="text-sm font-medium">¿Cuál es tu objetivo?</label>
-                  <select id="porque" name="porque" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
+                  <label htmlFor="porque" className="text-sm font-medium">¿Cuál es tu objetivo?<span className="text-red-500"> *</span></label>
+                  <select id="porque" name="porque" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
                     <option value="">Selecciona...</option>
                     <option value="ahorro">Ahorro</option>
                     <option value="confort">Confort</option>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
