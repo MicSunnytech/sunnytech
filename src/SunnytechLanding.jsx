@@ -17,9 +17,9 @@ export default function SunnytechLanding() {
     const templateParams = {
       Nombre: formData.get("Nombre"),
       Email: formData.get("Email"),
-      Teléfono: formData.get("Teléfono"),
-      Dirección: formData.get("Dirección"),
-      Tipo_vivienda: formData.get("Tipo de vivienda"),
+      Teléfono: formData.get("telefono"),
+      Dirección: formData.get("direccion"),
+      Tipo_vivienda: formData.get("Tipo_vivienda"),
       Tipo_instalacion: formData.get("Tipo_instalacion"),
       Tipo_calefaccion: formData.get("Tipo_calefaccion"),
       AAconbombadecalor: formData.get("AAconbombadecalor"),
@@ -422,3 +422,4 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
