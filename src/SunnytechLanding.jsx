@@ -132,7 +132,7 @@ export default function SunnytechLanding() {
       </section>
 
       {/* Servicios */}
-      <section id="servicios" className="" >
+      <section id="servicios" className="scroll-mt-20" >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-semibold tracking-tight">Servicios integrales</h2>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
