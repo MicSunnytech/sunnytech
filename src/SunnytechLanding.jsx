@@ -267,13 +267,7 @@ export default function SunnytechLanding() {
                   <input id="email" name="Email" type="email" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
-                {/* Teléfono */}
-                <div className="grid gap-2">
-                  <label htmlFor="telefono" className="text-sm font-medium">Teléfono nuevo</label>
-                  <input id="telefono" name="telefono" type="tel" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
-                </div>
-                
-                {/* Dirección */}
+               {/* Dirección */}
                 <div className="grid gap-2">
                   <label htmlFor="direccion" className="text-sm font-medium">Dirección</label>
                   <input id="address" name="direccion" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
@@ -422,6 +416,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
