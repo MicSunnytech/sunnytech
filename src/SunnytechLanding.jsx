@@ -404,13 +404,13 @@ export default function SunnytechLanding() {
               <li><a href="#contacto" className="hover:opacity-80">Contacto</a></li>
             </ul>
           </div>
-          <div>
+          {/* <div> // A implementar cuando tengamos redes 
             <div className="font-medium">Síguenos</div>
             <ul className="mt-2 space-y-2 text-slate-600">
               <li><a href="#" className="hover:opacity-80">Instagram</a></li>
               <li><a href="#" className="hover:opacity-80">Facebook</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="border-t border-slate-200 text-xs text-slate-500 py-4">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
