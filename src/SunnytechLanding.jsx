@@ -257,32 +257,32 @@ export default function SunnytechLanding() {
               <form ref={form} onSubmit={sendEmail} className="rounded-3xl border border-slate-200 p-6 bg-yellow-300 grid gap-8">
                 {/* Nombre */}
                 <div className="grid gap-2">
-                  <label htmlFor="name" className="text-sm font-medium">Nombre</label>
+                  <label htmlFor="name" className="text-sm font-medium">Nombre<span className="text-red-500"> *</span></label>
                   <input id="name" name="Nombre" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                 {/* Email */}
                 <div className="grid gap-2">
-                  <label htmlFor="email" className="text-sm font-medium">Email</label>
+                  <label htmlFor="email" className="text-sm font-medium">Email<span className="text-red-500"> *</span></label>
                   <input id="email" name="Email" type="email" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
                 
                 {/* Teléfono */}
                 <div className="grid gap-2">
-                  <label htmlFor="telefono" className="text-sm font-medium">Teléfono</label>
+                  <label htmlFor="telefono" className="text-sm font-medium">Teléfono<span className="text-red-500"> *</span></label>
                   <input id="telefono" name="telefono" type="tel" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                {/* Dirección */}
                 <div className="grid gap-2">
-                  <label htmlFor="poblacion" className="text-sm font-medium">Población / Municipio</label>
+                  <label htmlFor="poblacion" className="text-sm font-medium">Población / Municipio<span className="text-red-500"> *</span></label>
                   <input id="poblacion" name="poblacion" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                 {/* Tipo de vivienda */}
                 <div className="grid gap-2">
-                  <label htmlFor="housing" className="text-sm font-medium">Tipo de vivienda</label>
-                  <select id="housing" name="Tipo_vivienda" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
+                  <label htmlFor="housing" className="text-sm font-medium">Tipo de vivienda<span className="text-red-500"> *</span></label>
+                  <select id="housing" name="Tipo_vivienda" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
                     <option value="">Selecciona...</option>
                     <option value="Unifamiliar">Unifamiliar independiente</option>
                     <option value="Atico">Ático</option>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
