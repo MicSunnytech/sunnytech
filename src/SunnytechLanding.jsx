@@ -17,8 +17,8 @@ export default function SunnytechLanding() {
     const templateParams = {
       Nombre: formData.get("Nombre"),
       Email: formData.get("Email"),
-      Teléfono: formData.get("telefono"),
-      Dirección: formData.get("direccion"),
+      telefono: formData.get("telefono"),
+      poblacion: formData.get("poblacion"),
       Tipo_vivienda: formData.get("Tipo_vivienda"),
       Tipo_instalacion: formData.get("Tipo_instalacion"),
       Tipo_calefaccion: formData.get("Tipo_calefaccion"),
@@ -257,7 +257,7 @@ export default function SunnytechLanding() {
               <form ref={form} onSubmit={sendEmail} className="rounded-3xl border border-slate-200 p-6 bg-yellow-300 grid gap-8">
                 {/* Nombre */}
                 <div className="grid gap-2">
-                  <label htmlFor="name" className="text-sm font-medium">Nombre completo</label>
+                  <label htmlFor="name" className="text-sm font-medium">Nombre</label>
                   <input id="name" name="Nombre" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
@@ -275,8 +275,8 @@ export default function SunnytechLanding() {
 
                {/* Dirección */}
                 <div className="grid gap-2">
-                  <label htmlFor="direccion" className="text-sm font-medium">Población</label>
-                  <input id="direccion" name="direccion" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
+                  <label htmlFor="poblacion" className="text-sm font-medium">Población</label>
+                  <input id="poblacion" name="poblacion" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                 {/* Tipo de vivienda */}
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
