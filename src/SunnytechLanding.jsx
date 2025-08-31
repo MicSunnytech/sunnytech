@@ -407,9 +407,8 @@ export default function SunnytechLanding() {
           <div>
             <div className="font-medium">Síguenos</div>
             <ul className="mt-2 space-y-2 text-slate-600">
-              <li><a href="#" className="hover:opacity-80">LinkedIn</a></li>
               <li><a href="#" className="hover:opacity-80">Instagram</a></li>
-              <li><a href="#" className="hover:opacity-80">X (Twitter)</a></li>
+              <li><a href="#" className="hover:opacity-80">Facebook</a></li>
             </ul>
           </div>
         </div>
@@ -423,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
