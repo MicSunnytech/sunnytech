@@ -269,13 +269,13 @@ export default function SunnytechLanding() {
 
                 {/* Teléfono */}
                 <div className="grid gap-2">
-                  <label htmlFor="phone" className="text-sm font-medium">Teléfono</label>
+                  <label htmlFor="telefono" className="text-sm font-medium">Teléfono</label>
                   <input id="phone" name="telefono" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                 {/* Dirección */}
                 <div className="grid gap-2">
-                  <label htmlFor="address" className="text-sm font-medium">Dirección</label>
+                  <label htmlFor="direccion" className="text-sm font-medium">Dirección</label>
                   <input id="address" name="direccion" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
@@ -297,6 +297,7 @@ export default function SunnytechLanding() {
                     <option value="">Selecciona...</option>
                     <option value="monofasica">Monofásica</option>
                     <option value="trifasica">Trifásica</option>
+                    <option value="No lo sé">No lo sé</option>
                   </select>
                 </div>
 
@@ -317,10 +318,10 @@ export default function SunnytechLanding() {
                   <label htmlFor="AAconbombadecalor" className="text-sm font-medium">¿Cuántos equipos de Aire Acondicionado con bomba de calor tienes?</label>
                   <select id="AAconbombadecalor" name="AAconbombadecalor" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
                     <option value="">Selecciona...</option>
-                    <option value="AAconbombacalor_Ninguno">Ninguno</option>
-                    <option value="AAconbombacalor_1">1</option>
-                    <option value="AAconbombacalor_2">2</option>
-                    <option value="AAconbombacalor_masde2">Más de 2</option>
+                    <option value="Ninguno">Ninguno</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="Mas de 2">Más de 2</option>
                   </select>
                 </div>
 
@@ -333,7 +334,8 @@ export default function SunnytechLanding() {
                     <option value="50-100">50-100 €</option>
                     <option value="100-150">100-150 €</option>
                     <option value="150-200">150-200 €</option>
-                    <option value="masde200">Más de 200 €</option>
+                    <option value="Mas de 200">Más de 200 €</option>
+                    <option value="No lo sé">No lo sé</option>
                   </select>
                 </div>
 
@@ -347,6 +349,7 @@ export default function SunnytechLanding() {
                     <option value="200-300">200-300 €</option>
                     <option value="300-400">300-400 €</option>
                     <option value="masde400">Más de 400 €</option>
+                    <option value="No lo sé">No lo sé</option>
                   </select>
                 </div>
 
@@ -422,4 +425,5 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
