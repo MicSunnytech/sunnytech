@@ -376,7 +376,6 @@ export default function SunnytechLanding() {
 
                 {sent && <p className="text-green-700 font-medium text-center">✅ Formulario enviado correctamente</p>}
 
-                <p className="text-xs text-slate-500">Al enviar aceptas nuestra política de privacidad.</p>
               </form>
             </div>
           </div>
@@ -403,7 +402,6 @@ export default function SunnytechLanding() {
             <ul className="mt-2 space-y-2 text-slate-600">
               <li><a href="#faq" className="hover:opacity-80">Preguntas frecuentes</a></li>
               <li><a href="#contacto" className="hover:opacity-80">Contacto</a></li>
-              <li><a href="#" className="hover:opacity-80">Política de privacidad</a></li>
             </ul>
           </div>
           <div>
@@ -425,5 +423,6 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
