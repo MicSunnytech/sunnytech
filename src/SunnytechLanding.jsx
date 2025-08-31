@@ -275,7 +275,7 @@ export default function SunnytechLanding() {
 
                {/* Dirección */}
                 <div className="grid gap-2">
-                  <label htmlFor="poblacion" className="text-sm font-medium">Población</label>
+                  <label htmlFor="poblacion" className="text-sm font-medium">Población / Municipio</label>
                   <input id="poblacion" name="poblacion" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
@@ -284,9 +284,9 @@ export default function SunnytechLanding() {
                   <label htmlFor="housing" className="text-sm font-medium">Tipo de vivienda</label>
                   <select id="housing" name="Tipo_vivienda" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300">
                     <option value="">Selecciona...</option>
-                    <option value="Unifamiliar independiente">Unifamiliar independiente</option>
-                    <option value="Unifamiliar pareado">Unifamiliar pareado</option>
-                    <option value="Unifamiliar adosado">Unifamiliar adosado</option>
+                    <option value="Unifamiliar">Unifamiliar independiente</option>
+                    <option value="Atico">Ático</option>
+                    <option value="Empresa_Industria ">Empresa / Industria</option>
                   </select>
                 </div>
 
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
