@@ -270,7 +270,7 @@ export default function SunnytechLanding() {
                 {/* Teléfono */}
                 <div className="grid gap-2">
                   <label htmlFor="telefono" className="text-sm font-medium">Teléfono</label>
-                  <input id="telefono" name="telefono" type="tel" required placeholder="+34 600 123 456" pattern="[0-9+ ]{9,15}" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
+                  <input id="telefono" name="telefono" type="tel" required className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                {/* Dirección */}
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
