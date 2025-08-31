@@ -275,8 +275,8 @@ export default function SunnytechLanding() {
 
                {/* Dirección */}
                 <div className="grid gap-2">
-                  <label htmlFor="direccion" className="text-sm font-medium">Dirección</label>
-                  <input id="address" name="direccion" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
+                  <label htmlFor="direccion" className="text-sm font-medium">Población</label>
+                  <input id="direccion" name="direccion" className="rounded-2xl border border-slate-300 px-4 py-2 outline-none focus:ring-2 ring-yellow-300"/>
                 </div>
 
                 {/* Tipo de vivienda */}
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
