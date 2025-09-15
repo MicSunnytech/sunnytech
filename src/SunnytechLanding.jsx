@@ -67,13 +67,13 @@ export default function SunnytechLanding() {
           <a href="#hero" className="flex items-center gap-2 font-semibold tracking-tight">
             <img src={Logo} alt="SunnyTech" className="h-28 w-auto" />
           </a>
-          <div className="hidden md:flex items-center gap-20 text-xl">
+          <div className="hidden md:flex items-center gap-16 text-xl">
             <a href="#servicios" className="hover:opacity-80">Servicios</a>
             <a href="#soluciones" className="hover:opacity-80">Soluciones</a>
             <a href="#proyectos" className="hover:opacity-80">Proyectos</a>
             <a href="#faq" className="hover:opacity-80">FAQ</a>
             <a href="#contacto" className="inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-slate-900 text-white hover:opacity-90">
-              <Phone className="w-6 h-6"/> Contacto
+              <Phone className="w-8 h-8"/> Contacto
             </a>
           </div>
         </nav>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
