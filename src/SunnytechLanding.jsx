@@ -56,7 +56,7 @@ export default function SunnytechLanding() {
     { q: "¿Necesito permisos para instalar?", a: "Nos encargamos de toda la tramitación: licencias municipales, legalización y alta de compensación de excedentes." },
     { q: "¿Cuánto se ahorra?", a: "Depende del perfil de consumo y la tarifa. Nuestros clientes ahorran entre un 40% y un 100% en la factura eléctrica." },
     { q: "¿Y si no hay sol?", a: "Los sistemas siguen produciendo con radiación difusa. Además, integramos baterías e inversores de alta eficiencia." },
-    { q: "¿Ofrecen financiación?", a: "Sí. Disponemos de opciones de financiación." },
+    { q: "¿Ofrecen financiación?", a: "Sí. Disponemos de opciones de financiación a tu medida." },
   ];
 
   return (
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
