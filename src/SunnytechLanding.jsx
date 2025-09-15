@@ -63,7 +63,7 @@ export default function SunnytechLanding() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
       {/* Navbar */}
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200/60">
-        <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-12">
+        <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-32">
           <a href="#hero" className="flex items-center gap-2 font-semibold tracking-tight">
             <img src={Logo} alt="SunnyTech" className="h-28 w-auto" />
           </a>
@@ -73,7 +73,7 @@ export default function SunnytechLanding() {
             <a href="#proyectos" className="hover:opacity-80">Proyectos</a>
             <a href="#faq" className="hover:opacity-80">FAQ</a>
             <a href="#contacto" className="inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-slate-900 text-white hover:opacity-90">
-              <Phone className="w-8 h-8"/> Contacto
+              <Phone className="w-6 h-6"/> Contacto
             </a>
           </div>
         </nav>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
