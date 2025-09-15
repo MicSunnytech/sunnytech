@@ -84,7 +84,7 @@ export default function SunnytechLanding() {
         <div className="absolute inset-0 -z-10">
           <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-[1100px] h-[1100px] rounded-full bg-yellow-200/30 blur-3xl" />
         </div>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 lg:py-2">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 lg:py-2">
           <div className="grid lg:grid-cols-2 items-center gap-6">
             <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{duration:0.6}}>
               <p className="inline-flex items-center gap-2 text-xl font-medium px-3 py-1 rounded-full bg-slate-900 text-white w-fit">
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
