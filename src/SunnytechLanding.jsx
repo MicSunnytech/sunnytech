@@ -67,7 +67,7 @@ export default function SunnytechLanding() {
           <a href="#hero" className="flex items-center gap-2 font-semibold tracking-tight">
             <img src={Logo} alt="SunnyTech" className="h-28 w-auto" />
           </a>
-          <div className="hidden md:flex items-center gap-12 text-3xl">
+          <div className="hidden md:flex items-center gap-4 text-2xl">
             <a href="#servicios" className="hover:opacity-80">Servicios</a>
             <a href="#soluciones" className="hover:opacity-80">Soluciones</a>
             <a href="#proyectos" className="hover:opacity-80">Proyectos</a>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
