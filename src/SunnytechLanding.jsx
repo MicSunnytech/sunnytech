@@ -65,7 +65,7 @@ export default function SunnytechLanding() {
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200/60">
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-24">
           <a href="#hero" className="flex items-center gap-2 font-semibold tracking-tight">
-            <img src={Logo} alt="SunnyTech" className="h-36 w-auto" />
+            <img src={Logo} alt="SunnyTech" className="h-24 w-auto" />
           </a>
           <div className="hidden md:flex items-center gap-12 text-2xl">
             <a href="#servicios" className="hover:opacity-80">Servicios</a>
@@ -422,6 +422,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
