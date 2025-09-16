@@ -62,7 +62,8 @@ export default function SunnytechLanding() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
       {/* Navbar */}
-      <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200/60">
+     /* <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-200/60">*/
+       <header className="sticky top-0 z-40 bg-white border-b border-slate-200">
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-24">
           <a href="#hero" className="flex items-center gap-2 font-semibold tracking-tight">
             <img src={Logo} alt="SunnyTech" className="h-24 w-auto" />
@@ -422,6 +423,7 @@ export default function SunnytechLanding() {
     </div>
   );
 }
+
 
 
 
